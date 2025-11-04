@@ -99,7 +99,7 @@ footer {
   padding-top:1px;
   text-align:left;
   flex-direction:column;
-  font-family:monospace;
+  font-family:'Courier New', Courier, monospace;
 }
 
 .parrafo {
