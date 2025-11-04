@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Luckiest+Guy&family=Ole&family=Poller+One&family=WindSong:wght@400;500&display=swap');
+
+/*escritorio*/
+@media(min-whidh:1024px){
+  body{
+    background-color: rgb(78, 75, 77);
+  }
+}
+/*telefono*/
+@media(min-whidh:0px)and(max-width:767px){
+  nav ul{
+    flex-direction: column;
+  }
+}
+
+/*tablet*/
+@media(min-whidh:768px)and(max-whidth:1023px){
+  nav ul{
+    flex-direction: column;
+  }
+}
+
+@media(min-whidh:1024px){
+  nav ul{
+flex-direction: row;
+  }
+}
+
+html,body{
+  height: 100%;
+  margin: 0;
+  background:rgb(78, 75, 77);
+}
+
+.banner{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+header{
+  color: white;
+  text-align: center;
+  border-width: 10px;
+  font-size: 13px;
+  align-items: flex-start;
+  font-family:sans-serif;
+  background-color: rgb(78, 75, 77);
+}
+
+nav{
+  background-color:rgb(78, 75, 77);
+  padding: 10px;
+}
+
+nav ul{
+  list-style: circle;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  list-style:none;
+}
+
+nav li{
+  margin: 0 10px;
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover{
+  color:rgb(229, 149, 217);
+}
+
+main h1{
+  color: white;
+  font-size: 17px
+}
+
+footer {
+  background-color:rgb(78, 75, 77);
+  color:white;
+  font-size: 13px;
+  text-align: right;
+  padding: 1rem;
+  align-items: flex-end;
+}
+
+
+.principal {
+	background-color:rgb(78, 75, 77);
+  color: white;
+  font-size: 20px;
+  padding: 2rem;
+  padding-top:1px;
+  text-align:left;
+  flex-direction:column;
+  font-family:monospace;
+}
+
+.parrafo {
+  color: white;
+  font-family:monospace;
+  font-size: 20px;
+  font-weight: bold;
+  text-align:center;
+  text-decoration: none;
+  text-transform: none;
+  padding: 50px;
+  border-width: 20px;
+  padding-top: 3px;
+  padding-bottom: 10px;
+
+}
+
+main{
+ font-family: "Instrument Serif", serif;
+}
+
+img{
+  width: 100%;
+}
+
+/* Cambia el color del body a negro */
