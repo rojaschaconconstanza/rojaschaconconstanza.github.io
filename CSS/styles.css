@@ -27,6 +27,7 @@ flex-direction: row;
 }
 
 html,body{
+  color: white;
   height: 100%;
   margin: 0;
   background:rgb(78, 75, 77);
@@ -124,5 +125,3 @@ main{
 img{
   width: 100%;
 }
-
-/* Cambia el color del body a negro */
